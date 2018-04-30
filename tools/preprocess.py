@@ -51,6 +51,38 @@ def load_and_tabulate_data(filename, listBinary):
     return data
 
 
+def load_and_tabulate_data_unique(filename, listBinary):
+    """
+    Parameters
+    -----------------
+    filename: strings
+        name of the file to be loaded
+    listBinary: list 
+        list of genomes
+        
+    Return
+    ------------------
+    data: numpy ndarray(nsamples, nfeatures+nobservations)
+    """
+    rawData=np.loadtxt(filename)        
+    #first make copies of equivalent configurations
+    s = np.zeros((len(rawData), 4))
+    for i in range(len(s)):
+        s[i] = rawData[i]
+        s[i][0]=i*4 #use normal genome, in normal genome there are 4 duplicates! 
+    
+    nfeatures = len(listBinary[0]) #length of 2D arrays flatten to 1D
+    data = np.zeros((len(s), nfeatures+3)) # '+3' as we include 3 properties 
+    
+    for i in range(len(data)):
+        array = toArray(listBinary[int(s[i][0])])
+        data[i][0:nfeatures] = array
+        data[i][nfeatures:] = s[i][1:]
+    
+    return data
+
+
+
 def create_matrix(data, discrete, prop, cutoff, nfeatures):
     """
     Create matrix X and 1D array y for data analysis 
