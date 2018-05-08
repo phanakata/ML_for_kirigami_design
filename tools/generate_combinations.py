@@ -1,8 +1,7 @@
 import numpy as np
+from helper_functions import * 
 
-#def generateCombination(NCcell_x, NCcell_y, listBinary, numberNoCuts, detach):
 
-#def generateCombinations():
 """
 This codes generate all possible configurations 
 NCell_x, y: integer
@@ -22,6 +21,17 @@ def generate_binary(n, listBinary):
     
 #def find combinations 
 def findCombinations(listBinary, NCcell_x, NCcell_y, numberNoCuts):
+    N=NCcell_x * NCcell_y
+    combinations = []
+    for  i in range(len(listBinary)):
+        if np.sum(toArray(listBinary[i]))==numberNoCuts:
+              combinations.append(listBinary[i])
+
+    return combinations
+
+
+#def find combinations 
+def findCombinations_old(listBinary, NCcell_x, NCcell_y, numberNoCuts):
     N=NCcell_x * NCcell_y
     combinations = []
     for  i in range(len(listBinary)):
