@@ -1,5 +1,7 @@
 import numpy as np 
 from helper_functions import * 
+from generate_lattice import * 
+
 def preprocess_main():
     """ 
         this function takes a pre-made list of email texts (by default word_data.pkl)
@@ -49,6 +51,49 @@ def load_and_tabulate_data(filename, listBinary):
         data[i][nfeatures:] = s[i][1:]
     
     return data
+
+
+
+def load_and_tabulate_data_fgrid(filename, listBinary, NCcell_x, NCcell_y, ncell_x, ncell_y):
+    """
+    Parameters
+    -----------------
+    filename: strings
+        name of the file to be loaded
+    listBinary: list 
+        list of genomes
+        
+    Return
+    ------------------
+    data: numpy ndarray(nsamples, nfeatures+nobservations)
+    """
+    rawData=np.loadtxt(filename)        
+    #first make copies of equivalent configurations
+    s = np.zeros((4*len(rawData), 4))
+    for i in range(len(s)):
+        s[i] = rawData[i//4]
+        s[i][0]=i #use normal genome
+    
+    inner = generateInnerCell(NCcell_x, NCcell_y, ncell_x, ncell_y)
+    nfeatures = len(inner)
+    
+    ncell_x * ncell_y #length of 2D arrays flatten to 1D
+    data = np.zeros((len(s), nfeatures+3)) # '+3' as we include 3 properties 
+    
+    for i in range(len(data)):
+        #first convert strings to array
+        cutConfigurations = toArray(listBinary[int(s[i][0])])
+        #create inner with no cuts 
+        inner = generateInnerCell(NCcell_x, NCcell_y, ncell_x, ncell_y)
+        #create cuts
+        inner_wCuts = makeCutsonCell(cutConfigurations, inner, NCcell_x, NCcell_y, ncell_x, ncell_y)
+        data[i][0:nfeatures] = inner_wCuts
+        data[i][nfeatures:] = s[i][1:]
+    
+    return data
+
+
+
 
 
 def load_and_tabulate_data_unique(filename, listBinary):
