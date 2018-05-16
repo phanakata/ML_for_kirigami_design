@@ -14,6 +14,6 @@ def toArray(stringsBinary):
 def toString(cutConfigurations):
     genome_ID=""
     for i in range(len(cutConfigurations)):
-        genome_ID=genome_ID+str(cutConfigurations[i])
+        genome_ID=genome_ID+str(int(cutConfigurations[i]))
 
     return genome_ID
