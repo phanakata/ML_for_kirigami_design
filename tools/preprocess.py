@@ -35,7 +35,15 @@ def load_and_tabulate_data(filename, listBinary):
     ------------------
     data: numpy ndarray(nsamples, nfeatures+nobservations)
     """
-    rawData=np.loadtxt(filename)        
+    rawData=np.loadtxt(filename) 
+    
+    #there will be a problem WHEN there is only ONE single line of data (i.e pristine)
+    #numpyload makes the data into (ncolumn, ) instead of (1, ncolumn)
+    #to solve this we just add one more data point from pristine and then use unique function to delete the extra one
+    if len(rawData)<10:
+        rawData = np.unique(rawData, axis=0)
+
+    
     #first make copies of equivalent configurations
     s = np.zeros((4*len(rawData), 4))
     for i in range(len(s)):
@@ -51,6 +59,34 @@ def load_and_tabulate_data(filename, listBinary):
         data[i][nfeatures:] = s[i][1:]
     
     return data
+
+
+def load_and_tabulate_data_wo_s(filename, listBinary):
+    """
+    Parameters
+    -----------------
+    filename: strings
+        name of the file to be loaded
+    listBinary: list 
+        list of genomes
+        
+    Return
+    ------------------
+    data: numpy ndarray(nsamples, nfeatures+nobservations)
+    """
+    rawData=np.loadtxt(filename)        
+    
+    nfeatures = len(listBinary[0]) #length of 2D arrays flatten to 1D
+    data = np.zeros((len(rawData), nfeatures+3)) # '+3' as we include 3 properties 
+    
+    for i in range(len(data)):
+        array = toArray(listBinary[i])
+        data[i][0:nfeatures] = array
+        data[i][nfeatures:] = rawData[i][1:]
+    
+    return data
+
+
 
 
 
