@@ -231,11 +231,11 @@ def split_data(x, y, percentage_training, percentage_test):
     ntest = int(percentage_test * len(x))
 
     X_train = x[:ntrain]
-    X_valid = x[ntrain:ntrain:ntrain+nvalid]
+    X_valid = x[ntrain:ntrain+nvalid]
     X_test = x[ntrain+nvalid:]
     
     y_train = y[:ntrain]
-    y_valid = y[ntrain:ntrain:ntrain+nvalid]
+    y_valid = y[ntrain:ntrain+nvalid]
     y_test = y[ntrain+nvalid:]
     
     return X_train, X_valid, X_test, y_train, y_valid, y_test
