@@ -8,6 +8,6 @@ P. Z. Hanakata, E. D. Cubuk, D. K. Campbell, H.S. Park, Accelerated search and d
 
 This package is still under developement. 
 
-A simple jupyter notebook to perform predictions with scikit-learn package is avalaible in `models/simple_machine_learning.ipynb'
+A simple jupyter notebook to perform predictions with scikit-learn package is avalaible in `models/simple_machine_learning.ipynb`
 
 More features (e.g., tensorFlow code) will be added soon.
