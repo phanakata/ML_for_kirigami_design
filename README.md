@@ -8,6 +8,8 @@ P. Z. Hanakata, E. D. Cubuk, D. K. Campbell, H.S. Park, Accelerated search and d
 
 This package is still under developement. 
 
-A simple jupyter notebook to perform predictions with scikit-learn package is avalaible in `models/simple_machine_learning.ipynb`
+A simple jupyter notebook to perform predictions with scikit-learn package is avalaible in `models/simple/simple_machine_learning.ipynb`
+A python code to perform regression with TensorFlow is avalaible in `models/regression_CNN/`
 
-More features (e.g., tensorFlow code) will be added soon.
+
+More features (e.g., search algorithm with tensorFlow code) will be added soon.
