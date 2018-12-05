@@ -36,10 +36,7 @@ def load_and_tabulate_data(filename, listBinary):
     data: numpy ndarray(nsamples, nfeatures+nobservations)
     """
     rawData=np.loadtxt(filename) 
-    
-    #there will be a problem WHEN there is only ONE single line of data (i.e pristine)
-    #numpyload makes the data into (ncolumn, ) instead of (1, ncolumn)
-    #to solve this we just add one more data point from pristine and then use unique function to delete the extra one
+
     if len(rawData)<10:
         rawData = np.unique(rawData, axis=0)
 
