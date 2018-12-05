@@ -13,3 +13,6 @@ A python code to perform regression with TensorFlow is avalaible in `models/regr
 
 
 More features (e.g., search algorithm with tensorFlow code) will be added soon.
+
+## Authors
+Paul Hanakata
