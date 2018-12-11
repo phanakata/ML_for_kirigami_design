@@ -4,6 +4,7 @@ Python package to model and to perform topology optimization for graphene kiriga
 See our paper 
 P. Z. Hanakata, E. D. Cubuk, D. K. Campbell, H.S. Park, Accelerated search and design of stretchable graphene kirigami using machine learning
 , arXiv preprint arXiv:1808.06111
+Our paper is recently accepted to Physical Review Letters!
 
 This package is still under developement. 
 
