@@ -20,9 +20,10 @@ Paul Hanakata
 ## Citation
 
 If you use this package/code please cite 
-```LaTex
+```bash
 @article{hanakata2018accelerated,
 title={Accelerated search and design of stretchable graphene kirigami using machine learning},
 author={Hanakata, Paul Z and Cubuk, Ekin D and Campbell, David K and Park, Harold S},
 journal={arXiv preprint arXiv:1808.06111},
-year={2018}}```
+year={2018}}
+```
