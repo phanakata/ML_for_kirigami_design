@@ -5,10 +5,10 @@ See our paper
 P. Z. Hanakata, E. D. Cubuk, D. K. Campbell, H.S. Park, Accelerated search and design of stretchable graphene kirigami using machine learning
 , arXiv preprint arXiv:1808.06111
 
-
 This package is still under developement. 
 
 A simple jupyter notebook to perform predictions with scikit-learn package is avalaible in `models/simple/simple_machine_learning.ipynb`
+
 A python code to perform regression with TensorFlow is avalaible in `models/regression_CNN/`
 
 
