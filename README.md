@@ -10,8 +10,7 @@ This package is still under developement.
 
 2. A jupyter notebook to generate atomic configurations for LAMMPS input file is avalaible in `generate_LAMMPS_input/generate_LAMMPS_configuration_input.ipynb`
 
-
-A python code to perform regression with TensorFlow is avalaible in `models/regression_CNN/`
+3. A python code to perform regression with TensorFlow is avalaible in `models/regression_CNN/`
 
 
 More features (e.g., search algorithm with tensorFlow code) will be added soon.
