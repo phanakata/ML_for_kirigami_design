@@ -6,7 +6,10 @@ P. Z. Hanakata, E. D. Cubuk, D. K. Campbell, H.S. Park, Accelerated search and d
 
 This package is still under developement. 
 
-A simple jupyter notebook to perform predictions with scikit-learn package is avalaible in `models/simple/simple_machine_learning.ipynb`
+1. A simple jupyter notebook to perform predictions with scikit-learn package is avalaible in `models/simple/simple_machine_learning.ipynb`
+
+2. A jupyter notebook to generate atomic configurations for LAMMPS input file is avalaible in `generate_LAMMPS_input/generate_LAMMPS_configuration_input.ipynb`
+
 
 A python code to perform regression with TensorFlow is avalaible in `models/regression_CNN/`
 
