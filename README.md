@@ -1,5 +1,5 @@
 # ML_for_kirigami_design
-Python package to model and to perform topology optimization for graphene kirigami using deep learning. We specically use convolutional neural networks (similar to VGGNet architecure) for regression. 
+Python package to model and to perform topology optimization for graphene kirigami using deep learning. We use convolutional neural networks (similar to VGGNet architecure) for regression. 
 
 ## Paper 
 See our published paper: <a href="https://arxiv.org/abs/1808.06111" style="color:#268cd7
