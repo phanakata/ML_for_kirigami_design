@@ -5,8 +5,6 @@ Python package to model and to perform topology optimization for graphene kiriga
 See our published paper: <a href="https://arxiv.org/abs/1808.06111" style="color:#268cd7
 "> **P. Z. Hanakata**, E. D. Cubuk, D. K. Campbell, H.S. Park, Accelerated search and design of stretchable graphene kirigami using machine learning (arXiv preprint arXiv:1808.06111).</a> Our paper is recently accepted to Physical Review Letters!
 
-This package is still under developement. 
-
 ## General usage 
 1. A python code to perform regression with TensorFlow is avalaible in `models/regression_CNN/tf_fgrid_dnn_validtrain.py`
 
@@ -16,7 +14,7 @@ This package is still under developement.
 3. A simple jupyter notebook to perform predictions with scikit-learn package is avalaible in `models/simple/simple_machine_learning.ipynb`
 
 
-More features (e.g., search algorithm with TensorFlow code) will be added soon.
+This package is still under developement. More features (e.g., search algorithm with TensorFlow code) will be added soon.
 
 ## Authors
 Paul Hanakata
