@@ -15,7 +15,7 @@ This package is still under developement.
 3. A python code to perform regression with TensorFlow is avalaible in `models/regression_CNN/tf_fgrid_dnn_validtrain.py`
 
 
-More features (e.g., search algorithm with tensorFlow code) will be added soon.
+More features (e.g., search algorithm with TensorFlow code) will be added soon.
 
 ## Authors
 Paul Hanakata
