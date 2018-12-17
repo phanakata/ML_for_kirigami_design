@@ -2,7 +2,10 @@
 Python package to model and to perform topology optimization for graphene kirigami using deep learning. We specically use convolutional neural networks (similar to VGGNet architecure) for regression. 
 
 ## Paper 
-See our published paper: P. Z. Hanakata, E. D. Cubuk, D. K. Campbell, H.S. Park, Accelerated search and design of stretchable graphene kirigami using machine learning (arXiv preprint arXiv:1808.06111). Our paper is recently accepted to Physical Review Letters!
+See our published paper: <a href="https://arxiv.org/abs/1808.06111" style="color:#268cd7
+"> **P. Z. Hanakata**, E. D. Cubuk, D. K. Campbell, H.S. Park, Accelerated search and design of stretchable graphene kirigami using machine learning (arXiv preprint arXiv:1808.06111).</a>
+
+. Our paper is recently accepted to Physical Review Letters!
 
 This package is still under developement. 
 
