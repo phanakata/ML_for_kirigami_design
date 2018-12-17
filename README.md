@@ -23,7 +23,7 @@ Paul Hanakata
 
 ## Citation
 
-If you use this package/code please cite 
+If you use this package/code or find our research is useful for your work please cite 
 ```bash
 @article{hanakata2018accelerated,
 title={Accelerated search and design of stretchable graphene kirigami using machine learning},
