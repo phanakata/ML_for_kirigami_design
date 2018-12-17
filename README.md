@@ -8,12 +8,12 @@ See our published paper: <a href="https://arxiv.org/abs/1808.06111" style="color
 This package is still under developement. 
 
 ## General usage 
-1. A simple jupyter notebook to perform predictions with scikit-learn package is avalaible in `models/simple/simple_machine_learning.ipynb`
+1. A python code to perform regression with TensorFlow is avalaible in `models/regression_CNN/tf_fgrid_dnn_validtrain.py`
 
 2. A jupyter notebook to generate atomic configurations for <a href="https://lammps.sandia.gov/" style="color:#268cd7
 ">LAMMPS</a> input file is avalaible in `generate_LAMMPS_input/generate_LAMMPS_configuration_input.ipynb`
 
-3. A python code to perform regression with TensorFlow is avalaible in `models/regression_CNN/tf_fgrid_dnn_validtrain.py`
+3. A simple jupyter notebook to perform predictions with scikit-learn package is avalaible in `models/simple/simple_machine_learning.ipynb`
 
 
 More features (e.g., search algorithm with TensorFlow code) will be added soon.
