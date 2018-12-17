@@ -3,7 +3,7 @@ Python package to model and to perform topology optimization for graphene kiriga
 
 ## Paper 
 See our published paper: <a href="https://arxiv.org/abs/1808.06111" style="color:#268cd7
-"> **P. Z. Hanakata**, E. D. Cubuk, D. K. Campbell, H.S. Park, Accelerated search and design of stretchable graphene kirigami using machine learning (arXiv preprint arXiv:1808.06111).</a>. Our paper is recently accepted to Physical Review Letters!
+"> **P. Z. Hanakata**, E. D. Cubuk, D. K. Campbell, H.S. Park, Accelerated search and design of stretchable graphene kirigami using machine learning (arXiv preprint arXiv:1808.06111).</a> Our paper is recently accepted to Physical Review Letters!
 
 This package is still under developement. 
 
@@ -30,3 +30,6 @@ author={Hanakata, Paul Z and Cubuk, Ekin D and Campbell, David K and Park, Harol
 journal={arXiv preprint arXiv:1808.06111},
 year={2018}}
 ```
+## References
+<a href="https://arxiv.org/abs/1808.06111" style="color:#268cd7
+"> **P. Z. Hanakata**, E. D. Cubuk, D. K. Campbell, H.S. Park, Accelerated search and design of stretchable graphene kirigami using machine learning (arXiv preprint arXiv:1808.06111).</a>
