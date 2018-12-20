@@ -2,8 +2,8 @@
 Python package to model and to perform topology optimization for graphene kirigami using deep learning. We use convolutional neural networks (similar to VGGNet architecure) for regression. 
 
 ## Paper 
-See our published paper: <a href="https://arxiv.org/abs/1808.06111" style="color:#268cd7
-"> **P. Z. Hanakata**, E. D. Cubuk, D. K. Campbell, H.S. Park, Accelerated search and design of stretchable graphene kirigami using machine learning (arXiv preprint arXiv:1808.06111).</a> Our paper is recently accepted to Physical Review Letters!
+See our published paper: <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.121.255304" style="color:#268cd7
+"> **P. Z. Hanakata**, E. D. Cubuk, D. K. Campbell, H.S. Park, Accelerated search and design of stretchable graphene kirigami using machine learning, *Phys. Rev. Lett*, 121, 255304  (2018).</a>
 
 ## General usage 
 1. A python code to perform regression with TensorFlow is avalaible in `models/regression_CNN/tf_fgrid_dnn_validtrain.py`
@@ -23,12 +23,22 @@ Paul Hanakata
 
 If you use this package/code or find our research is useful for your work please cite 
 ```bash
-@article{hanakata2018accelerated,
-title={Accelerated search and design of stretchable graphene kirigami using machine learning},
-author={Hanakata, Paul Z and Cubuk, Ekin D and Campbell, David K and Park, Harold S},
-journal={arXiv preprint arXiv:1808.06111},
-year={2018}}
+@article{hanakata-PhysRevLett.121.255304,
+  title = {Accelerated Search and Design of Stretchable Graphene Kirigami Using Machine Learning},
+  author = {Hanakata, Paul Z. and Cubuk, Ekin D. and Campbell, David K. and Park, Harold S.},
+  journal = {Phys. Rev. Lett.},
+  volume = {121},
+  issue = {25},
+  pages = {255304},
+  numpages = {6},
+  year = {2018},
+  month = {Dec},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.121.255304},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.121.255304}
+}
 ```
 ## References
+<a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.121.255304" style="color:#268cd7">[1] **Paul Z. Hanakata**, E. D. Cubuk, D. K. Campbell, H.S. Park, *Phys. Rev. Lett*, 121, 255304  (2018).</a>
 <a href="https://arxiv.org/abs/1808.06111" style="color:#268cd7
-"> **P. Z. Hanakata**, E. D. Cubuk, D. K. Campbell, H.S. Park, Accelerated search and design of stretchable graphene kirigami using machine learning (arXiv preprint arXiv:1808.06111).</a>
+">[2] **P. Z. Hanakata**, E. D. Cubuk, D. K. Campbell, H.S. Park, Accelerated search and design of stretchable graphene kirigami using machine learning (arXiv preprint arXiv:1808.06111).</a>
