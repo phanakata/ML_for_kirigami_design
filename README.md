@@ -40,5 +40,4 @@ If you use this package/code or find our research is useful for your work please
 ```
 ## References
 * <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.121.255304" style="color:#268cd7">[1] **Paul Z. Hanakata**, E. D. Cubuk, D. K. Campbell, H.S. Park, *Phys. Rev. Lett*, 121, 255304  (2018).</a>
-<a href="https://arxiv.org/abs/1808.06111" style="color:#268cd7
-* ">[2] **P. Z. Hanakata**, E. D. Cubuk, D. K. Campbell, H.S. Park, Accelerated search and design of stretchable graphene kirigami using machine learning (arXiv preprint arXiv:1808.06111).</a>
+* <a href="https://arxiv.org/abs/1808.06111" style="color:#268cd7">[2] **P. Z. Hanakata**, E. D. Cubuk, D. K. Campbell, H.S. Park, Accelerated search and design of stretchable graphene kirigami using machine learning (arXiv preprint arXiv:1808.06111).</a>
