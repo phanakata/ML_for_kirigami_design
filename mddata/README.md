@@ -1,4 +1,4 @@
-15grid_shuffled.dat dataset contains all possible configurations of kirigamis with 0--15 allowed cuts and their corresponding mechanical properties. The dataset is used in <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.121.255304" style="color:#268cd7
+15grid_shuffled.dat dataset contains all possible configurations of kirigamis with 0--15 cuts and their corresponding mechanical properties. The dataset was used in <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.121.255304" style="color:#268cd7
 "> **P. Z. Hanakata**, E. D. Cubuk, D. K. Campbell, H.S. Park, Accelerated search and design of stretchable graphene kirigami using machine learning, *Phys. Rev. Lett*, 121, 255304  (2018).</a>
 
 Data format:
