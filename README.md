@@ -25,7 +25,7 @@ Paul Hanakata
 
 ## Citation
 
-If you use this package/code or find our research is useful for your work please cite 
+If you use this package/code/dataset or find our research is useful for your work please cite 
 ```bash
 @article{hanakata-PhysRevLett.121.255304,
   title = {Accelerated Search and Design of Stretchable Graphene Kirigami Using Machine Learning},
