@@ -13,7 +13,7 @@ See our published paper: <a href="https://journals.aps.org/prl/abstract/10.1103/
 
 3. A simple jupyter notebook to perform predictions with scikit-learn package is avalaible in `models/simple/simple_machine_learning.ipynb`
 
-4. A simple jupyter notebook to convert coarse-grained dataset to fine-grid dataset is avalaible in `models/regression_CNN/tf_fgrid_dnn_validtrain.py`
+4. A simple jupyter notebook to convert coarse-grained dataset to fine-grid dataset is avalaible in `models/regression_CNN/convert_coarse_to_fine.ipynb`
 
 5. Raw dataset of coarse-grained grid can be found in `mddata`. This dataset generated using AIREBO potential with 1.7 mincutoff which is the default of CH.airebo. 
 
