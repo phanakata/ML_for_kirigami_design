@@ -5,6 +5,7 @@ Python package to model and to perform topology optimization for graphene kiriga
 See our published paper: <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.121.255304" style="color:#268cd7
 "> **P. Z. Hanakata**, E. D. Cubuk, D. K. Campbell, H.S. Park, Accelerated search and design of stretchable graphene kirigami using machine learning, *Phys. Rev. Lett*, 121, 255304  (2018).</a>
 
+
 ## General usage 
 1. A python code to perform regression with TensorFlow is avalaible in `models/regression_CNN/tf_fgrid_dnn_validtrain.py`
 
@@ -20,12 +21,15 @@ See our published paper: <a href="https://journals.aps.org/prl/abstract/10.1103/
 
 This package is still under developement. More features (e.g., search algorithm with TensorFlow code) will be added soon.
 
+## To download 
+git clone https://github.com/phanakata/ML_for_kirigami_design.git
+
 ## Authors
 Paul Hanakata
 
 ## Citation
 
-If you use this package/code/dataset or find our research is useful for your work please cite 
+If you use this package/code/dataset, build on  or find our research is useful for your work please cite 
 ```bash
 @article{hanakata-PhysRevLett.121.255304,
   title = {Accelerated Search and Design of Stretchable Graphene Kirigami Using Machine Learning},
