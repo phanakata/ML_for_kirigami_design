@@ -43,11 +43,18 @@ def makeCutsonCell(cutConfigurations, inner, NCcell_x, NCcell_y, ncell_x, ncell_
         #now conver (Nx, Ny) to one dimensional and check whether it's 0 or 1 
         index = Nx * NCcell_y + Ny
         
+        
+        #cuts orthogonal to the loading 
         if (cutConfigurations[index]==0):
             if nx> Nx * mx +mx/3 and nx < Nx* mx +mx *2/3:
                 inner[i] = 0
+        
+        #cuts parallel to the loading 
+        if (cutConfigurations[index]==-1):
+            if ny> Ny * my +my/3 and ny < Ny* my +my *2/3:
+                inner[i] = 0
     
-    return inner
+    return inner    
 
 
 def addEdges(inner, ncell_x, ncell_y):
@@ -62,7 +69,7 @@ def addEdges(inner, ncell_x, ncell_y):
     cell = np.append(edge1, inner)
     cell = np.append(cell, edge2)
 
-    return cell
+    return cell 
 
 def generateLattice(kirigami, NCcell_x, NCcell_y, ncell_x, ncell_y, cell_x, cell_y, cell_z, Lx, Ly, Lz):
     """
@@ -129,8 +136,6 @@ def generateLattice(kirigami, NCcell_x, NCcell_y, ncell_x, ncell_y, cell_x, cell
             
     return listAtoms
 
-
-
 def getSize(listAtoms):
     """
     Helper functions to find the boundaries
@@ -149,3 +154,4 @@ def getSize(listAtoms):
     zhi, zlo = np.max(Z), np.min(Z)
 
     return (xhi, xlo, yhi, ylo, zhi, zlo)
+  
