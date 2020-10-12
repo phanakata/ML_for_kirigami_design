@@ -16,7 +16,9 @@ See our published paper: <a href="https://journals.aps.org/prl/abstract/10.1103/
 
 4. A simple jupyter notebook to convert coarse-grained dataset to fine-grid dataset is avalaible in `models/regression_CNN/convert_coarse_to_fine.ipynb`
 
-5. Raw dataset of coarse-grained grid can be found in `mddata`. This dataset generated using AIREBO potential with 1.7 mincutoff which is the default of CH.airebo. 
+5. Raw dataset of coarse-grained grid can be found in `mddata`. This dataset generated using AIREBO potential with 1.7 mincutoff which is the default of CH.airebo.
+
+6. Supervised Autoencoder codes will be added soon! 
 
 
 This package is still under developement. More features (e.g., search algorithm with TensorFlow code) will be added soon.
@@ -48,4 +50,4 @@ If you use this package/code/dataset, build on  or find our research is useful f
 ```
 ## References
 * <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.121.255304" style="color:#268cd7">[1] **Paul Z. Hanakata**, E. D. Cubuk, D. K. Campbell, H.S. Park, *Phys. Rev. Lett*, 121, 255304  (2018).</a>
-* <a href="https://arxiv.org/abs/1808.06111" style="color:#268cd7">[2] **P. Z. Hanakata**, E. D. Cubuk, D. K. Campbell, H.S. Park, Accelerated search and design of stretchable graphene kirigami using machine learning (arXiv preprint arXiv:1808.06111).</a>
+
