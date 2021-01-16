@@ -19,6 +19,7 @@ See our published paper:
 
 2. Regression and optimization 
 * A python code to perform regression with TensorFlow is avalaible in `models/regression_CNN/tf_fgrid_dnn_validtrain.py`
+* A python code to perform search optimal design with TensorFlow is avalaible in `models/regression_CNN/tf_cnn_search_large_v2.py`
 * A simple jupyter notebook to perform predictions with scikit-learn package is avalaible in `models/simple/simple_machine_learning.ipynb`
 
 
