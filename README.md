@@ -13,7 +13,7 @@ See our published paper:
 1. A python code to perform regression with TensorFlow is avalaible in `models/regression_CNN/tf_fgrid_dnn_validtrain.py`
 
 2. A jupyter notebook to generate atomic configurations for <a href="https://lammps.sandia.gov/" style="color:#268cd7
-">LAMMPS</a> input file is avalaible in `generate_LAMMPS_input/generate_LAMMPS_configuration_input.ipynb`. New methods to generate pralled cuts are now avalaible. 
+">LAMMPS</a> input file is avalaible in `generate_LAMMPS_input/generate_LAMMPS_configuration_input.ipynb`. New methods to generate parallel cuts are now avalaible. 
  
 3. A simple jupyter notebook to perform predictions with scikit-learn package is avalaible in `models/simple/simple_machine_learning.ipynb`
 
