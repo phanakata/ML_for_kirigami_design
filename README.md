@@ -2,10 +2,11 @@
 Python package to model and to perform topology optimization for graphene kirigami using deep learning. We use convolutional neural networks (similar to VGGNet architecure) for regression. 
 
 ## Paper 
-See our published paper: <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.121.255304" style="color:#268cd7
+See our published paper: 
+1. <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.121.255304" style="color:#268cd7
 "> **P. Z. Hanakata**, E. D. Cubuk, D. K. Campbell, H.S. Park, *Accelerated search and design of stretchable graphene kirigami using machine learning*, Phys. Rev. Lett, 121, 255304  (2018).</a>
-See our published paper: <a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.042006" style="color:#268cd7
-"> **P. Z. Hanakata**, E. D. Cubuk, D. K. Campbell, H.S. Park, *Forward and inverse design of kirigami via supervised autoencoder*, Phys. Rev. Research, 121, 255304  (2018).</a
+2. <a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.042006" style="color:#268cd7
+"> **P. Z. Hanakata**, E. D. Cubuk, D. K. Campbell, H.S. Park, *Forward and inverse design of kirigami via supervised autoencoder*, Phys. Rev. Research, 121, 255304  (2018).</a>
 
 
 ## General usage 
