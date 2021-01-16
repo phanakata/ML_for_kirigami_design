@@ -10,8 +10,9 @@ See our published paper:
 
 
 ## General usage 
-1. A python code to perform regression with TensorFlow is avalaible in `models/regression_CNN/tf_fgrid_dnn_validtrain.py`
 
+1. A python code to perform regression with TensorFlow is avalaible in `models/regression_CNN/tf_fgrid_dnn_validtrain.py`
+* x
 2. A jupyter notebook to generate atomic configurations for <a href="https://lammps.sandia.gov/" style="color:#268cd7
 ">LAMMPS</a> input file is avalaible in `generate_LAMMPS_input/generate_LAMMPS_configuration_input.ipynb`. New methods to generate parallel cuts are now avalaible. 
  
@@ -20,6 +21,9 @@ See our published paper:
 4. A simple jupyter notebook to convert coarse-grained dataset to fine-grid dataset is avalaible in `models/regression_CNN/convert_coarse_to_fine.ipynb`
 
 5. Raw dataset of coarse-grained grid can be found in `mddata`. This dataset generated using AIREBO potential with 1.7 mincutoff which is the default of CH.airebo.
+
+6.
+
 
 6. Supervised Autoencoder notebook is now avaliable in `models_supervisedAutoencoder_forwardInverseDesign/supervisedAE_for_kirigamiDesign.ipynb`. See notebook for details of the code. 
 
