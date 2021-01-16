@@ -13,19 +13,20 @@ See our published paper:
 
 
 1. Data generation and data handling 
-...* A jupyter notebook to generate atomic configurations for <a href="https://lammps.sandia.gov/" style="color:#268cd7
+* A jupyter notebook to generate atomic configurations for <a href="https://lammps.sandia.gov/" style="color:#268cd7
 ">LAMMPS</a> input file is avalaible in `generate_LAMMPS_input/generate_LAMMPS_configuration_input.ipynb`. New methods to generate parallel cuts are now avalaible. 
-...* A simple jupyter notebook to convert coarse-grained dataset to fine-grid dataset is avalaible in `models/regression_CNN/convert_coarse_to_fine.ipynb`
+* A simple jupyter notebook to convert coarse-grained dataset to fine-grid dataset is avalaible in `models/regression_CNN/convert_coarse_to_fine.ipynb`
 
 2. Regression and optimization 
-...* A python code to perform regression with TensorFlow is avalaible in `models/regression_CNN/tf_fgrid_dnn_validtrain.py`
-...* A simple jupyter notebook to perform predictions with scikit-learn package is avalaible in `models/simple/simple_machine_learning.ipynb`
+* A python code to perform regression with TensorFlow is avalaible in `models/regression_CNN/tf_fgrid_dnn_validtrain.py`
+* A simple jupyter notebook to perform predictions with scikit-learn package is avalaible in `models/simple/simple_machine_learning.ipynb`
 
 
-4. Raw dataset of coarse-grained grid can be found in `mddata`. This dataset generated using AIREBO potential with 1.7 mincutoff which is the default of CH.airebo.
+4. Dataset 
+* Raw dataset of coarse-grained grid can be found in `mddata`. This dataset generated using AIREBO potential with 1.7 mincutoff which is the default of CH.airebo.
 
 3.  Supervised Autoencoder 
-...* A sAE notebook to perform forward and inverse design is now avaliable in `models_supervisedAutoencoder_forwardInverseDesign/supervisedAE_for_kirigamiDesign.ipynb`. See notebook for details of the code. 
+* A sAE notebook to perform forward and inverse design is now avaliable in `models_supervisedAutoencoder_forwardInverseDesign/supervisedAE_for_kirigamiDesign.ipynb`. See notebook for details of the code. 
 
 
 This package is still under developement. More features will be added soon.
