@@ -21,7 +21,7 @@ See our published paper:
 
 5. Raw dataset of coarse-grained grid can be found in `mddata`. This dataset generated using AIREBO potential with 1.7 mincutoff which is the default of CH.airebo.
 
-6. Supervised Autoencoder notebook is now avaliable in ``. See notebook for details of the code. 
+6. Supervised Autoencoder notebook is now avaliable in `models_supervisedAutoencoder_forwardInverseDesign/supervisedAE_for_kirigamiDesign.ipynb`. See notebook for details of the code. 
 
 
 This package is still under developement. More features (e.g., search algorithm with TensorFlow code) will be added soon.
